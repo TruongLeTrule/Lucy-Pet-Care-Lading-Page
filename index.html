@@ -80,7 +80,10 @@
     />
     <link rel="manifest" href="./assets/favicon/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Embed font -->
@@ -94,5 +97,48 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Header top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top__inner">
+            <!-- Lucy logo -->
+            <a href="/"
+              ><figure>
+                <img
+                  src="./assets/images/logo.svg"
+                  alt="Lucy"
+                  class="header__logo"
+                /></figure
+            ></a>
+
+            <!-- Navigation bar -->
+            <nav class="nav-bar">
+              <ul class="nav-list">
+                <li>
+                  <a href="/" class="nav-item active">Home</a>
+                </li>
+                <li>
+                  <a href="#!" class="nav-item">About</a>
+                </li>
+                <li>
+                  <a href="#!" class="nav-item">Services & Rates</a>
+                </li>
+                <li>
+                  <a href="#!" class="nav-item">Review</a>
+                </li>
+                <li>
+                  <a href="#!" class="nav-item">Contacts us</a>
+                </li>
+              </ul>
+            </nav>
+
+            <a href="" class="btn nav-btn">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
