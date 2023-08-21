@@ -72,7 +72,7 @@ a {
 }
 
 .header__logo:hover {
-  transform: scale(1.05) translateY(-3px);
+  transform: scale(1.05) translateY(-2px);
 }
 
 /* Navbar */
