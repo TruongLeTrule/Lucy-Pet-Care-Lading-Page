@@ -98,6 +98,12 @@ a {
   text-shadow: 0.1px 0px 0px rgba(0, 0, 0, 0.55);
 }
 
+.nav-btn {
+  border-radius: 25px;
+  color: #000958;
+  border: 1px solid #000958de;
+}
+
 /* ==================== Hero ==================== */
 .hero-inner {
   display: flex;
