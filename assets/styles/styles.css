@@ -121,11 +121,28 @@ a {
 }
 
 .hero-image--large {
+  position: relative;
   width: 388px;
   height: 488px;
   object-fit: contain;
   object-position: 60% 58px;
   scale: 2;
+}
+
+.hero-decor--01,
+.hero-decor--02 {
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-decor--01 {
+  top: 16px;
+  right: 112px;
+}
+
+.hero-decor--02 {
+  bottom: 103px;
+  left: -57px;
 }
 
 .hero-image-wrap--small {
